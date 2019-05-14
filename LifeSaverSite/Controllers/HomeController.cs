@@ -13,6 +13,12 @@ namespace LifeSaverSite.Controllers
             return View();
         }
 
+        public ActionResult Image()
+        {
+            return View();
+        }
+     
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
