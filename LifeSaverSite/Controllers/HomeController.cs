@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace LifeSaverSite.Controllers
+namespace HW1.Controllers
 {
     public class HomeController : Controller
     {
@@ -13,10 +13,11 @@ namespace LifeSaverSite.Controllers
             return View();
         }
 
-        public ActionResult Inventory()
+        public ActionResult FAQ()
         {
             return View();
         }
+
 
         public ActionResult About()
         {
@@ -27,7 +28,32 @@ namespace LifeSaverSite.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Clinic Contact";
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Login()
+        {
+            ViewBag.Message = "Your login page.";
+
+            return View();
+        }
+        public ActionResult Compare()
+        {
+            ViewBag.Message = "Your login page.";
+
+            return View();
+        }
+        public ActionResult SiteMap()
+        {
+            ViewBag.Message = "Your login page.";
+
+            return View();
+        }
+        public ActionResult Dashboard()
+        {
+            ViewBag.Message = "Your login page.";
 
             return View();
         }
