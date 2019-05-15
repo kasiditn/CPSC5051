@@ -13,11 +13,10 @@ namespace LifeSaverSite.Controllers
             return View();
         }
 
-        public ActionResult Image()
+        public ActionResult Inventory()
         {
             return View();
         }
-     
 
         public ActionResult About()
         {
