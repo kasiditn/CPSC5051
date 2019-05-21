@@ -1,56 +1,63 @@
 ﻿@{
     ViewBag.Title = "Dashboard";
 }
-    <html lang="en">
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
-        <style>
-            /* Stackoverflow preview fix, please ignore */
-            .navbar-nav {
-                flex-direction: row;
-            }
+<link rel="stylesheet" href="~/Stylesheets/bootstrap.min.css">
+<script src="~/Scripts/jquery.min.js"></script>
+<script src="~/Scripts/popper.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
 
-            .nav-link {
-                padding-right: .5rem !important;
-                padding-left: .5rem !important;
-            }
+<style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<div class="row">
+    <div class="col-sm-1">
+        <a class="nav-link"> <h5>Dashboard</h5></a>
+        <a class="nav-link"> <h5>Reports</h5></a>
+        <a class="nav-link"> <h5>Inventory</h5></a>
+        <a class="nav-link"> <h5>Search</h5></a>
+        <a class="nav-link"> <h5>Compare</h5></a>
+        <a class="nav-link"> <h5>Image</h5></a>
+    </div>
+    <div class="col-sm-11">
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
-            /* Fixes dropdown menus placed on the right side */
-            .ml-auto .dropdown-menu {
-                left: auto !important;
-                right: 0px;
-            }
-        </style>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
-            <div class="navbar-header ">
-                <img src="../Images/logo3.png" alt="logo" width="100" height="100">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../Images/1.jpeg" alt="Los Angeles" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Images/2.jpg" alt="Chicago" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Images/3.jpg" alt="New York" width="1100" height="500">
+                </div>
             </div>
-         zz
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link">Left Link 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Left Link 2</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link">Right Link 1</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">            Dropdown on Right</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action with a lot of text inside of an item</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    </body>
-    </html>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+
+    </div>
+</div>
