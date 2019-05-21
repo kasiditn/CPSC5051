@@ -127,6 +127,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-super.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -138,6 +139,11 @@
     <Content Include="Images\1.jpeg" />
     <Content Include="Images\2.jpg" />
     <Content Include="Images\3.jpg" />
+    <Content Include="Images\ComputerKeyboard-2.jpg" />
+    <Content Include="Images\doctor.jpg" />
+    <Content Include="Images\images.png" />
+    <Content Include="Images\login1.jpg" />
+    <Content Include="Images\login2.jpg" />
     <Content Include="Images\logo1.PNG" />
     <Content Include="Images\logo2.PNG" />
     <Content Include="Images\logo3.png" />
@@ -160,6 +166,8 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\popper.min.js" />
     <Content Include="Stylesheets\bootstrap.min.css" />
+    <Content Include="Stylesheets\octicons.min.css" />
+    <Content Include="Stylesheets\primer.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -175,6 +183,8 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\LoginPage.cshtml" />
+    <Content Include="Views\Shared\partial.cshtml" />
+    <Content Include="Views\Shared\footer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
