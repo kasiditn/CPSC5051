@@ -177,6 +177,7 @@
     <Content Include="Views\Home\Compare.cshtml" />
     <Content Include="Views\Home\Report.cshtml" />
     <Content Include="Views\Shared\footer.cshtml" />
+    <Content Include="Views\Shared\partial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
