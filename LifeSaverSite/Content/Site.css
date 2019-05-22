@@ -24,13 +24,8 @@ textarea {
 
 }
 
-/*set image size to be 640 x 360px */
-.carousel-inner > .item > img {
-    width: 240px;
-    height: 360px;
-}
-
 .CarouselImage {
     width: 640px;
-    height: 360px;s
+    height: 360px;
+    object-fit: contain;
 }
