@@ -64,10 +64,18 @@ namespace HW1.Controllers
             return View();
         }
         public ActionResult Image()
-           {
+        {
             ViewBag.Message = "Your Image page.";
 
             return View();
+        }
+
+        public ActionResult Inventory()
+        {
+            ViewBag.Message = "You are on Inventory page";
+
+            return View();
+        }
+
     }
-}
 }
