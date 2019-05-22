@@ -28,7 +28,7 @@ namespace HW1.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your Contact Page.";
+            /*ViewBag.Message = "Your Contact Page.";*/
 
             return View();
         }
