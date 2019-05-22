@@ -1,28 +1,25 @@
 ﻿
 
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-bottom">
+
+    <body>
+
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               
 
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto nav-link">
+                        <li>@Html.ActionLink("About", "About", "Home", new { @class = "nav-link" })</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home", new { @class = "nav-link" })</li>
+                        <li>@Html.ActionLink("FAQ", "FAQ", "Home", new { @class = "nav-link" })</li>
+                        <li>@Html.ActionLink("Contact Us", "Contact Us", "Home", new { @class = "nav-link" })</li>
 
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Report", "Index", "Report")</li>
-                    <li>@Html.ActionLink("FAQ", "FAQ", "Home")</li>
-
-
-                </ul>
-            </div>
+                    </ul>
+                 
+                </div>
+            </nav>
         </div>
-    </div>
+     
 </body>
 
+      
