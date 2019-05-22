@@ -1,29 +1,24 @@
-﻿
-    <div class="navbar-collapse collapse">
-        <div class="text-center">
-            <ul class="nav navbar-nav pull-right mr-auto">
-                <li href="#">
-                    <span class="glyphicon  glyphicon-bell " style="font-size:24px;color:lightblue;text-shadow:2px 2px 4px #000000" ; width="11" height="500"></span>
-                </li>
+﻿@{
+                /**/
 
-            </ul>
-            <ul class="nav navbar-nav pull-right">
-                <li>@Html.ActionLink("Log Out", "Log Out", "Account")</li>
-            </ul>
-            <ul class="nav navbar-nav pull-right">
+                //using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                {
+    @Html.AntiForgeryToken()
 
-                
-                <li class="flex-grow-1 d-flex">
-                    <form class="form-inline flex-nowrap bg-light mx-0 mx-lg-auto rounded p-1">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </li>
+    <ul class="nav navbar-nav navbar-right">
+        <li class=" form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </li>
+        @*<li><span class="glyphicon  glyphicon-bell"></span></li>*@
+        <li>
+            @Html.ActionLink("Log Out", "Log Out", "Account")
+        </li>
 
-            </ul>
-
-
-        </div>
-        </div>
-
-
+    </ul>
+    @*<form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>*@
+}
+}
