@@ -23,8 +23,9 @@ namespace Lifesaver
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-super.css",
+                      "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+           
         }
     }
 }

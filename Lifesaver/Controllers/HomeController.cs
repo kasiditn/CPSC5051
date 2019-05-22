@@ -19,6 +19,12 @@ namespace Lifesaver.Controllers
 
             return View();
         }
+        public ActionResult map()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
 
         public ActionResult LoginPage()
         {

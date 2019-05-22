@@ -185,6 +185,7 @@
     <Content Include="Views\Home\LoginPage.cshtml" />
     <Content Include="Views\Shared\partial.cshtml" />
     <Content Include="Views\Shared\footer.cshtml" />
+    <Content Include="Views\Home\map.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
