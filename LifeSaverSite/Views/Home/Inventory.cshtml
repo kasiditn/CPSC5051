@@ -3,5 +3,65 @@
     ViewBag.Title = "Inventory";
 }
 
-<h2>Inventory</h2>
-
+<!--  <body style="background-image:url('~/Content/Img/Inventory_Background.jpg'); background-repeat:no-repeat; background-size:cover">   -->
+<div class="container">
+    <h3>Inventory</h3>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Lagos Clinics</a></li>
+        <li><a href="#">Yobe Clinics</a></li>
+        <li><a href="#">Abia Clinic</a></li>
+        <li><a href="#">Cross River Clinic</a></li>
+    </ul>
+    <table class="table table-striped">
+        <thead><tr><th>Inventory List of Clinics in Lagos</th></tr></thead>
+        <thead>
+            <tr>
+                <th>Clinic Id</th>
+                <th>Name</th>
+                <th>Date of Order</th>
+                <th>Unit Prize</th>
+                <th>Quantity In Stock</th>
+                <th>Reorder Time (In Days)</th>
+                <th> Reorder Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Test Strip</td>
+                <td>05/01/2019</td>
+                <td>$1.00</td>
+                <td>156</td>
+                <td>23</td>
+                <td>200</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>002</td>
+                <td>Test Strip</td>
+                <td>04/22/2019</td>
+                <td>$1.00</td>
+                <td>20</td>
+                <td>10</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>003</td>
+                <td>Phone</td>
+                <td>02/03/2019</td>
+                <td>$200.00</td>
+                <td>0</td>
+                <td>15</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="text-right">
+        <button type="button" class="bottom-right">Back</button>
+        <button type="button" class="bottom-right">Next</button>
+        <button type="button" class="bottom-right">Last</button>
+    </div>
+</div>
