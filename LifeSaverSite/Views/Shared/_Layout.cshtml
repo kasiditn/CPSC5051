@@ -19,14 +19,15 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto nav-link">
-                    <li>@Html.ActionLink("Home", "Index", "Home",  new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Dashboard", "Dashboard", "Home", new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Compare", "Compare", "Home", new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Image", "Image", "Home",  new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Image", "Image", "Home", new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Report", "Index", "Report", new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Inventory", "Inventory", "Home", new { @class = "nav-link" })</li>
 
                 </ul>
+                @Html.Partial("partial")
             </div>
         </nav>
     </div>
