@@ -136,6 +136,7 @@
     <Content Include="Content\Img\orangebox.JPG" />
     <Content Include="Content\Img\Report A.PNG" />
     <Content Include="Content\Img\reportpic.JPG" />
+    <Content Include="Content\Img\telemetry.jpg" />
     <Content Include="Content\Img\yellowbox.JPG" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
