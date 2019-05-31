@@ -9,22 +9,24 @@
 
 </head>
 <body>
- 
+
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-           
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto nav-link">
-                    <li>@Html.ActionLink("Login ", "Login", "Home", new { @class = "nav-link" })</li>
+
                     <li>@Html.ActionLink("Dashboard", "Dashboard", "Home", new { @class = "nav-link" })</li>
+
+                    <li>@Html.ActionLink("Compare", "Compare", "Home", new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Image", "Image", "Home", new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Report", "Report", "Home", new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Inventory", "Inventory", "Home", new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Compare", "Compare", "Home", new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Map", "Map", "Home", new { @class = "nav-link" })</li>
 
                 </ul>
                 @Html.Partial("partial")

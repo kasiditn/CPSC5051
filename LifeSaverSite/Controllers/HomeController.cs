@@ -25,6 +25,12 @@ namespace HW1.Controllers
 
             return View();
         }
+        public ActionResult Map()
+        {
+            ViewBag.Message = "Your About Page.";
+
+            return View();
+        }
 
         public ActionResult Contact()
         {
