@@ -131,6 +131,7 @@
     <Content Include="Content\Img\barchart.PNG" />
     <Content Include="Content\Img\bluebox.JPG" />
     <Content Include="Content\Img\c-piechart.PNG" />
+    <Content Include="Content\Img\Compare_Inventory.png" />
     <Content Include="Content\Img\ComputerKeyboard-2.jpg" />
     <Content Include="Content\Img\dashboardpic.JPG" />
     <Content Include="Content\Img\imgrep.PNG" />
