@@ -27,75 +27,101 @@
         <div id="menu1" class="container tab-pane fade">
             <div class="row"><p> </p></div>
             <div class="row">
-                <p style="margin-left:25px;">Compare</p>
-                <div class="dropdown">
-                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" style="margin-left:10px;">Clinic A</button>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="sel1">Compare Clinic:</label>
+                        <select class="form-control" id="sel1" name="sellist1">
+                            <option>Lagos</option>
+                            <option>Abia</option>
+                            <option>Admawa</option>
+                            <option>Akwa Ibom</option>
+                            <option>Beune</option>
+                            <option>Borno</option>
+                            <option>Cross River</option>
+                            <option>Delta</option>
+                            <option>Edo</option>
+                        </select>
+                    </div>
                 </div>
-                <p style="margin-left:50px;"> With   </p>
-                <div class="dropdown">
-                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" style="margin-left:40px;">Clinic B</button>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="sel1">With Clinic:</label>
+                        <select class="form-control" id="sel1" name="sellist1">
+                            <option>Abia</option>
+                            <option>Admawa</option>
+                            <option>Akwa Ibom</option>
+                            <option>Beune</option>
+                            <option>Borno</option>
+                            <option>Cross River</option>
+                            <option>Delta</option>
+                            <option>Edo</option>
+                            <option>Lagos</option>
+                        </select>
+                    </div>
+                 </div>
+                <div class="col">
+                    <div class=" btn">
+                        <button type="submit" style="margin-left:400px;">Compare</button>
+                    </div>
                 </div>
-                <div class=" btn">
-                    <button type="submit" style="margin-left:400px;">Compare</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="form-check-inline">
-                    <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input" value="" style="margin-left:20px;">Remaining Test Strips this month
-                    </label>
-                </div>
-                <div class="form-check-inline">
-                    <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input" value="">Remaining Test Strip from Last Month
-                    </label>
-                </div>
-                <div class="form-check-inline">
-                    <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input" value="">Test Strips Used today
-                    </label>
-                </div>
-            </div>
-            <table class="table table-bordered table-striped">
-                <thead>
-                    <tr class="bg-dark">
-                        <th>Comparison Attributes</th>
-                        <th>Clinic A</th>
-                        <th>Clinic B</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Test strip delivery date</td>
-                        <td>05/05/2018</td>
-                        <td>05/07/2019</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>No of test strips delivered this month</td>
-                        <td>200</td>
-                        <td>150</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>No of test strips delivered last month</td>
-                        <td>150</td>
-                        <td>150</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>No of test strips used today</td>
-                        <td>57</td>
-                        <td>28</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="text-right">
-                <button type="button" class="bottom-right">Back</button>
-                <button type="button" class="bottom-right">Next</button>
             </div>
         </div>
-</div>
+        <div class="row">
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="" style="margin-left:20px;">Remaining Test Strips this month
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Remaining Test Strip from Last Month
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Test Strips Used today
+                </label>
+            </div>
+        </div>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr class="bg-dark">
+                    <th>Comparison Attributes</th>
+                    <th>Clinic A</th>
+                    <th>Clinic B</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Test strip delivery date</td>
+                    <td>05/05/2018</td>
+                    <td>05/07/2019</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>No of test strips delivered this month</td>
+                    <td>200</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>No of test strips delivered last month</td>
+                    <td>150</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>No of test strips used today</td>
+                    <td>57</td>
+                    <td>28</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="text-right">
+            <button type="button" class="bottom-right">Back</button>
+            <button type="button" class="bottom-right">Next</button>
+            </div>
+        </div>
