@@ -1,8 +1,8 @@
 ﻿
 @{
-                /**/
+    /**/
 
-                ViewBag.Title = "Inventory";
+    ViewBag.Title = "Inventory";
 }
 
 <html>
@@ -12,14 +12,12 @@
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <h3>Inventory</h3>
     <div class="container">
         <div class="row">
             <div class="col">
-                <h3>Inventory</h3>
-            </div>
-            <div class="col" style="margin-left:400px;">
                 <div class="form-check-inline">
-                    <label class="form-text">Clinic</label>
+                    <label class="form-text" style="font-size:large">Clinic</label>
                     <select class="form-control" id="InvenL1" name="InventoryList1" style="margin-left:10px; margin-top:9px;">
                         <option>Abia</option>
                         <option>Admawa</option>
@@ -34,27 +32,33 @@
                 </div>
             </div>
             <div class="col">
-                <input id="datepicker1" width="160" style="background-color:antiquewhite"/>
-                <script>
-                    $('#datepicker1').datepicker({
-                        uiLibrary: 'bootstrap4'
-                    });
-                </script>
-            </div>
-            <div class="col">
-                <input id="datepicker2" width="160" style="background-color:antiquewhite"/>
-                <script>
-                    $('#datepicker2').datepicker({
-                        uiLibrary: 'bootstrap4'
-                    });
-                </script>
-            </div>
-            <div class="col text-right">
-                <div class="btn">
-                    <button type="submit" style="margin-top:9px;">Go</button>
+                <div class="form-check-inline">
+                    <label class="form-text">From date</label>
+                    <input id="datepicker1" width="160" style="margin-top:5px;" />
+                    <script>
+                        $('#datepicker1').datepicker({
+                            uiLibrary: 'bootstrap4'
+                        });
+                    </script>
                 </div>
             </div>
-        </div>
+                <div class="col">
+                    <div class="form-check-inline">
+                        <label class="form-text">To date</label>
+                        <input id="datepicker2" width="160" style="margin-top:5px;" />
+                        <script>
+                            $('#datepicker2').datepicker({
+                                uiLibrary: 'bootstrap4'
+                            });
+                        </script>
+                    </div>
+                </div>
+                <div class="col text-right">
+                    <div class="btn btn-lg btn-block" style="text-align-last:right">
+                        <button type="submit">Go</button>
+                    </div>
+                </div>
+            </div>
     </div>
     <div class="container mt-3">
         <br>
